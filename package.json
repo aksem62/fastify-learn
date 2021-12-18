@@ -1,0 +1,23 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "fasify api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "aksem <aksem62@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.25.0",
+    "fastify-swagger": "^4.13.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
